@@ -1,0 +1,51 @@
+#integer values
+a=5
+print(a)
+print(type(a))
+
+'''ínput functions in integer values'''
+a=int(input())
+print(a)
+print(type(a))
+
+#float values
+b=2.5
+print(b)
+print(type(b))
+
+'''ínput functions in integer values'''
+b=float(input())
+print(b)
+print(type(b))
+
+#complex values
+c=1+9j
+print(c)
+print(type(c))
+
+'''ínput functions in integer values'''
+c=complex(input())
+print(c)
+print(type(c))
+
+#boolean values
+
+d=True
+print(d)
+print(type(d))
+
+'''ínput functions in integer values'''
+d=bool(input())
+print(d)
+print(type(d))
+
+#string values
+e="krishna"
+print(e)
+print(type(e))
+
+'''ínput functions in integer values'''
+e=str(input())
+print(e)
+print(type(e))
+
