@@ -1,0 +1,37 @@
+#addition of integer numbers
+a=3
+b=4
+print(a+b)
+''''input function addition'''
+c=int(input())
+d=int(input())
+print(c+d)
+
+#add of two float values
+a=2.4
+b=3.4
+print(a+b)
+''''add of two input functions in float values'''
+a=float(input())
+b=float(input())
+print(a+b)
+
+#add of two complex values
+a=1+0j
+b=2+8j
+print(a+b)
+''''add of two input functions in complex values'''
+a=complex(input())
+b=complex(input())
+print(a+b)
+
+#add of two strings
+a="Hello"
+b="World"
+print(a+b)
+''''add of two input functions in strings'''
+a=str(input())
+b=str(input())
+print(a+b)
+
+
