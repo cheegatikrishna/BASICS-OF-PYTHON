@@ -1,0 +1,14 @@
+''''sequence data type: Range data type '''
+#range data type helps to print the range of certain numbers
+#it allows index slicing
+#in range function we definetly store the values in any one sequence or set data types\
+# syntax: range(0,n-1) here n is a range variable name
+
+#example
+
+x=range(10)
+print(list(x)) #to store the 0-9 values in the list.
+
+print(list(x[0:9:2]))#slicing method
+print(list(x[::-1])) #reverse the values
+print(list(x[2:7])) # to print between the middle of these two valuse
