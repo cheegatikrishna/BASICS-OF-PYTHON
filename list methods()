@@ -1,0 +1,40 @@
+l=[1,"teja",True,2.4,1+0j]
+l.append("ram")#add the element in the end of the list
+print(l)
+
+l.copy()#returns the list
+print(l)
+
+print(l.count("teja"))#count the list elements in a specified values
+
+l.extend([12,3.2,"krishna",90])#add the list elements in the end of the list
+print(l)
+
+print(l.index("teja"))#it is used to find the index positin of a specified element
+
+print(len(l))#it is used to find the length of the list
+
+l.remove("ram")#it is used to remove the particular element of a list
+print(l)
+
+l.insert(2,"rekha")#it is used to add the element in specified index
+print(l)
+
+l.pop()#deleted the element in the end of the list
+print(l)
+
+l.reverse()#it is used to print the list of elements in reverse order
+print(l)
+
+l.clear()#it is used to clear all the elements in list
+print(l)
+
+#sorting is used to find the ascending and descending order of a list
+#NOTE:it allows only integer and float values
+a=[1,4,5,2,6,9,24,6.5]
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+
+
