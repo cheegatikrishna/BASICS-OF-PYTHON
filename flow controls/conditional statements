@@ -1,0 +1,52 @@
+""""FLOW CONTROLS"""
+#if statement
+a=10
+b=20
+if a<b:
+    print("a is less than b")
+
+# if else
+a = 30
+b = 20
+if a < b:
+    print("a is less than b")
+else:
+    print("a is greater than b")
+
+# elif:(maximum three numbers)
+
+a = 10
+b = 20
+c = 30
+if a > b and a > c:
+    print(a, "is maximum value")
+elif b > a and b > c:
+    print(b, "is maximum value")
+else:
+    print(c, "is maximum value")
+
+#nested if statement
+
+if 10<20:
+    print("10 is less than 20")
+    if 20<30:
+        print("20 is less than 30")
+        if 30<40:
+            print("30 is less than 40")
+            if 40>50:
+                print("40 is less than 50")
+            else:
+                print("stop")
+
+
+#short if
+
+if 20<30: print("20 is less than 30")
+
+#short if else:
+print("20 is graeter than 30") if 20>30 else print("20 is less than 20")
+
+#AND, OR, NOT :
+if 10<20 and 30<40: print(30)
+if 10<30 or 30>40: print(50)
+if not 10<5: print(3)
