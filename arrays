@@ -1,0 +1,34 @@
+matrix=[]
+rows=int(input("enter the number rows:"))
+col=int(input("enter the numbers columns:"))
+for i in range(rows):
+    row=[]
+    for j in range(col):
+        element=int(input("enter the value:"))
+        row.append(element)
+    matrix.append(row)
+for i in range(rows):
+    for j in range(col):
+        print(matrix[i][j],end=" ")
+    print()
+
+
+matrix1=[]
+for i in range(rows):
+    row1=[]
+    for j in range(col):
+       element1=int(input("enter the elements:"))
+       row1.append(element1)
+    matrix1.append(row1)
+for i in range(rows):
+    for j in range(col):
+        print(matrix1[i][j],end=" ")
+    print()
+print("\n")
+
+for i in range(rows):
+    for j in range(col):
+        print(matrix[i][j]+matrix1[i][j],end=" ")
+    print()
+
+
