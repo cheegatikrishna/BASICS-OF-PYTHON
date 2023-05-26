@@ -1,0 +1,30 @@
+""""LOOPING STATEMENTS"""
+
+#for loop:
+
+a=10
+for i in range(a):
+    print(i,end=" ")
+print()
+
+k="krishna"
+for i in k:
+    print(i,end=" ")
+print()
+
+#using break statement
+
+s="basavaraju"
+for i in s:
+    print(i,end=" ")
+    if i=="v":
+        break
+print()
+#using continue statement
+t=10
+for i in range(t):
+    if i==5:
+        continue
+    print(i,end=" ")
+print()
+
